@@ -12,15 +12,40 @@ This plugin for woocommerce lets you select a number of days, and shopper can on
 
 == Description ==
 
-This plugin for woocommerce lets you select a number of days. Lets say you make handmade products, and when someone orders a handmade product it will take you 
-10 days to make. So you can set the number of days at: 10 and customer can only select a deilivery date 10 days after current day.
-Works on Woocommerce 2.0.13 - Woocommerce 2.0.26
+This plugin will allow the customer to choose an order delivery date on the checkout page. The customer can choose any delivery date that is after the current date.
+
+In woocommerce settings you can also set a number of days. If you set it to 10 days, then customers can only choose delivery dates 10 days after the current day. This is helpfull if you make handmade products that will take some days to make.
+
+The delivery date chosen by the customer will be visible to the site administrator while viewing the order under the "Custom Fields" section.
+
+You can select 2 categorie where the plugin will be active.
+
+This plugin allows you to improve your customer service by delivering the order on the customer's chosen date.
+
+Languages included:
+- English
+- Dutch
+
+**Full version (19,95):**
+
+**[Woocommerce Delivery Date Full](http://www.dreamfox.nl/shop/woocommerce-delivery-date-v1-0-0/ "Order Delivery Date Pro")** - Version 1.0.0 allows the customer to choose a delivery date on the checkout page. Black-out dates allow the site owner to decide which dates should be made not available for delivery.
+<ol>
+<li>Ability to select <strong>unlimited </strong> categories the plugin will be active</li>
+<li><strong>Workingdays</strong>option to count only workingdays (5 days a week)</li>
+<li><strong>Add holiday or black-out dates</strong> to the calendar</li>
+<li><strong>show Delivery Date in Customer Notification Email</strong></li>
+<li>Show 2 months in calendar</li>
+<li><strong>Select what weekdays delivery is not possible e.g.: Sunday</strong></li>
+</ol>
+
+**[View Demo](http://demo.dreamfox.nl/wordpress/product/product-for-delivery-date-plugin-testing/ "View Demo")**
 
 This version is limited in features.
-For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
+For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl/shop/woocommerce-delivery-date-v1-0-0/" target="_blank">www.dreamfox.nl</a>.
 
-<b>other plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a>
+<b>other WOOCOMMERCE plugins from Dreamfox:</b><br>
+-Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a><br>
+-Payment per product:  <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/payment-gateway-per-product-woocommerce/" target="_blank">Full version</a>
 
 == Installation ==
 
@@ -65,6 +90,9 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+
+= 1.0.2 =
+* use date format set in wp setings
 
 = 1.0.0 =
 * added on wordpress extensions
