@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Woocommerce Delivery Date
  * Plugin URI: www.dreamfox.nl 
- * Version: 1.0.0
+ * Version: 1.0.2
  * Author URI: www.dreamfox.nl
  * Author: Marco van Loghum Slaterus
  * Description: Extend Woocommerce plugin to add delivery date on checkout
