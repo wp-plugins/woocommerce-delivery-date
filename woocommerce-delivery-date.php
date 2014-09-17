@@ -1,18 +1,18 @@
 <?php
 /**
  * Plugin Name: Woocommerce Delivery Date
- * Plugin URI: www.dreamfox.nl 
+ * Plugin URI: www.dreamfoxmedia.nl 
  * Version: 1.0.2
- * Author URI: www.dreamfox.nl
+ * Author URI: www.dreamfoxmedia.nl
  * Author: Marco van Loghum Slaterus
  * Description: Extend Woocommerce plugin to add delivery date on checkout
  * Requires at least: 3.7
- * Tested up to: 3.8.1
+ * Tested up to: 4.0
  * License: GPLv3 or later
  * License URI: http://www.opensource.org/licenses/gpl-license.php
  * Text Domain: woocommerce-delivery-date
  * Domain Path: /lang/
- * @Developer : Anand Rathi ( Softsdev )
+ * @Developer : Anand
  */
 /**
  * Check if WooCommerce is active
@@ -49,7 +49,6 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	/*-----------------------------------------------------*/
 	
 	function softsdev_delivery_date() {
-		
 		echo '<div class="wrap "><div id="icon-tools" class="icon32"></div>';
 			echo '<h2>'. __( 'Delivery Date', 'softsdev' ) .'</h2>';
 			
@@ -63,13 +62,13 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			// fwt and set settings
 			if( isset( $_POST['delivery_date'] ) ){
 				$dd_setting = $_POST['delivery_date'];
-				$dd_setting['categories'] = array( end( $dd_setting['categories'] ) );
+
 				update_option( 'delivery_date_setting', $dd_setting );
 			}else{
 				$dd_setting = get_option('delivery_date_setting');			
 			}
-			$no_of_days_to_deliver = isset( $dd_setting ) && array_key_exists( 'no_of_days_to_deliver', $dd_setting ) ? $dd_setting['no_of_days_to_deliver'] : '';
-			$applicable_categories = isset( $dd_setting ) && array_key_exists ( 'categories', $dd_setting ) ? $dd_setting['categories'] : array();
+			$no_of_days_to_deliver = ( $dd_setting ) && array_key_exists( 'no_of_days_to_deliver', $dd_setting ) ? $dd_setting['no_of_days_to_deliver'] : '';
+			$applicable_categories = ( $dd_setting ) && array_key_exists ( 'categories', $dd_setting ) ? $dd_setting['categories'] : array();
 						
 			?>
 			<form action="<?php echo $_SERVER['PHP_SELF'].'?page=delivery-date' ?>" method="post">
@@ -96,7 +95,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 							}
 							?>
 						</ul>
-						<small><?php echo __( 'You can only able select one category for this. You can purchase full version at www.dreamfox.nl!', 'softsdev' ); ?></small>
+						<small><?php echo __( 'You can only able select two category for this. You can purchase full version at www.dreamfox.nl!', 'softsdev' ); ?></small>
 						
 					</div>
 				</div>
@@ -105,14 +104,24 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			<script type="text/javascript">
 				jQuery(document).ready(function(){
 					jQuery("#applicable_category input:checkbox").change(function(){
+						var length = jQuery("#applicable_category input:checkbox:checked").length;
 						var is_checked = jQuery(this).is(':checked')
-						jQuery('#applicable_category input[type=checkbox]').removeAttr('checked');
-						jQuery('#applicable_category input[type=checkbox]').parents('li').removeClass('checked');
+						if( length > 1 ) {
+							jQuery('#applicable_category input[type=checkbox]').attr('disabled', 'disabled');
+							jQuery('#applicable_category input[type=checkbox]:checked').removeAttr('disabled');
+						}else{
+							jQuery('#applicable_category input[type=checkbox]').removeAttr('disabled');
+						}
 						if( is_checked )
 							jQuery(this).attr('checked', 'checked').parents('li').addClass('checked');
 						else
 							jQuery(this).parents('li').removeClass('checked');							
 					});
+					var length = jQuery("#applicable_category input:checkbox:checked").length;
+					if( length > 1 ) {
+							jQuery('#applicable_category input[type=checkbox]').attr('disabled', 'disabled');
+							jQuery('#applicable_category input[type=checkbox]:checked').removeAttr('disabled');						
+					}
 				});
 			</script>
 			<style type="text/css">
@@ -168,16 +177,16 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		if( $show_delivery_datepicker === false ){
 			return '';
 		}else{
-			$dates_to_deliver = isset( $dd_setting['no_of_days_to_deliver'] ) && is_numeric( $dd_setting['no_of_days_to_deliver'] ) ? $dd_setting['no_of_days_to_deliver'] : 1;
+			$dates_to_deliver = isset( $dd_setting['no_of_days_to_deliver'] ) && is_numeric( $dd_setting['no_of_days_to_deliver'] ) ? $dd_setting['no_of_days_to_deliver'] : 0;
 			
 			wp_enqueue_script( 'jquery-ui-datepicker' );
 			wp_enqueue_style( 'jquery-ui', "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css" , '', '', false);
-			
-			$min_delivery_date 	= date('d-m-Y', strtotime('+'.( $dates_to_deliver + 1 ).' day', time()));
+			$date_format 	= get_option( 'date_format' );
+			$js_date_format = softsdev_date_format_php_to_js( get_option( 'date_format' ) );
+			$min_delivery_date 	= date( $date_format, strtotime( '+'.( $dates_to_deliver ).' day', current_time( 'timestamp', 0 ) ) );
 			echo '<script language="javascript">jQuery(document).ready(function(){
 					jQuery("#delivery_date").width("150px");
-					var formats = ["dd-mm-yy"];
-					jQuery("#delivery_date").datepicker({dateFormat: formats[0], minDate:'.$dates_to_deliver.',changeMonth: true, changeYear: true, yearRange: "'.date('Y').':'.(date('Y')+4).'"});
+					jQuery("#delivery_date").datepicker({dateFormat: "'.$js_date_format.'", minDate:'.$dates_to_deliver.',changeMonth: true, changeYear: true, yearRange: "'.date('Y').':'.(date('Y')+4).'"});
 					jQuery("#delivery_date").after("<div><small style=font-size:10px;>'. __('We will try our best to deliver your order on the specified date', 'softsdev' ) .'</small></div>");
 				});</script>';
 			echo '<style type="text/css">
@@ -223,15 +232,20 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	/*-----------------------------------------------------*/
 
 	function softsdev_dd_email_with_delivery_date( $order, $is_admin_email ) {
-		$delivery_date =  get_post_meta($order->id, 'Delivery Date', true);
-		if( !empty( $delivery_date ) )
+		$delivery_date =  get_post_meta($order->id, 'Delivery Date', true);		
+		if( !empty( $delivery_date ) ){
+			$date_format 	= get_option( 'date_format' );		
+			$delivery_date = date( $date_format, strtotime( $delivery_date ) );		
 			echo '<p><strong>' . __( 'Delivery Date', 'softsdev' ) . ':</strong> ' . $delivery_date . '</p>';
+		}
 	}
 	/*-----------------------------------------------------*/
 
 	function softsdev_dd_order_view( $order ) {
 		$delivery_date =  get_post_meta($order->id, 'Delivery Date', true);
 		if( !empty( $delivery_date ) ){
+			$date_format 	= get_option( 'date_format' );		
+			$delivery_date = date( $date_format, strtotime( $delivery_date ) );		
 			echo '<div>';
 			echo '<header class="title"><h3>' . __( 'Delivery Date', 'softsdev' ) . '</h3></header>';
 			echo '<dl>'.$delivery_date.'</dl>';
@@ -240,6 +254,35 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		}
 
 	}
+	/*-----------------------------------------------------*/
+	function softsdev_date_format_php_to_js( $sFormat ) {
+		switch( $sFormat ) {
+			//Predefined WP date formats
+			case 'F j, Y':
+				return( 'MM dd, yy' );
+				break;
+			case 'Y/m/d':
+				return( 'yy/mm/dd' );
+				break;
+			case 'm/d/Y':
+				return( 'mm/dd/yy' );
+				break;
+			case 'd/m/Y':
+				return( 'dd/mm/yy' );
+				break;				
+			case 'Y-m-d':
+				return( 'yy-mm-dd' );
+				break;
+			case 'm-d-Y':
+				return( 'mm-dd-yy' );
+				break;
+			case 'd-m-Y':
+				return( 'dd-mm-yy' );
+			default:
+				return( 'dd/mm/yy' );				
+				break;
+		 }
+	}	
 	/*-----------------------------------------------------*/
 	/*******************************************************/
 	/*-----------------------------------------------------*/
