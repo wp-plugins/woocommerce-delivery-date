@@ -26,9 +26,9 @@ Languages included:
 - English
 - Dutch
 
-**Full version (19,95):**
+**Pro version (19,95):**
 
-**[Woocommerce Delivery Date Full](http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/ "Order Delivery Date Pro")** - Allows the customer to choose a delivery date on the checkout page. Black-out dates allow the site owner to decide which dates should be made not available for delivery.
+**[Woocommerce Delivery Date Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/ "Order Delivery Date Pro")** - Allows the customer to choose a delivery date on the checkout page. Black-out dates allow the site owner to decide which dates should be made not available for delivery.
 <ol>
 <li>Ability to select <strong>unlimited </strong> categories the plugin will be active</li>
 <li><strong>Workingdays</strong>option to count only workingdays (5 days a week)</li>
@@ -42,11 +42,11 @@ Languages included:
 **[View Demo](http://demo.dreamfoxmedia.nl/wordpress/product/product-for-delivery-date-plugin-testing/ "View Demo")**
 
 This version is limited in features.
-For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
+For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
 
 <b>other WOOCOMMERCE plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a><br>
--Payment per product:  <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/payment-gateway-per-product-woocommerce/" target="_blank">Full version</a>
+-Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Pro version</a><br>
+-Payment per product:  <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/payment-gateway-per-product-woocommerce/" target="_blank">Pro version</a>
 
 == Installation ==
 
@@ -77,7 +77,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Woocom
 
 = Can i add also dates when i'm on holiday? =
 
-Yes this is available in the full version
+Yes this is available in the Pro version
 
 = More Information =
 
