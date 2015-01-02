@@ -39,7 +39,7 @@ Languages included:<ol>
 </ol>
 
 <strong>Demo is available (frontend & Backend)
-**[View Demo](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo @ http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/")**
+**[View Demo @ http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
 
 This version is limited in features.
 For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
