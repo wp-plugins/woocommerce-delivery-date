@@ -91,12 +91,19 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+= 1.0.3 =
+* Update Language files for Dutch and German
 
 = 1.0.2 =
-* use date format set in wp setings
+* Fixes and made compatible with woocommerce 2.24
+
+= 1.0.1 =
+* fix date selection format
 
 = 1.0.0 =
 * added on wordpress extensions
+
+
 
 == Upgrade notice ==
 
