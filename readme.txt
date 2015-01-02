@@ -14,9 +14,10 @@ This plugin for woocommerce lets you select a number of days, and shopper can on
 
 This plugin will allow the customer to choose an order delivery date on the checkout page. The customer can choose any delivery date that is after the current date.
 
-5 STARS RATING FOR THIS PLUGIN! SEE: http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
-In woocommerce settings you can also set a number of days. If you set it to 10 days, then customers can only choose delivery dates 10 days after the current day. This is helpfull if you make handmade products that will take some days to make.
+5 STARS RATING FOR THIS PLUGIN! SEE: 
+http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
 
+In woocommerce settings you can also set a number of days. If you set it to 10 days, then customers can only choose delivery dates 10 days after the current day. This is helpfull if you make handmade products that will take some days to make.
 The delivery date chosen by the customer will be visible to the site administrator while viewing the order under the "Custom Fields" section.
 You can select 2 categorie where the plugin will be active.
 This plugin allows you to improve your customer service by delivering the order on the customer's chosen date.
@@ -26,7 +27,6 @@ Languages included:<ol>
 <li>- German</li></ol>
 
 **Pro version (19,95):**
-
 **[Woocommerce Delivery Date Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/ "Order Delivery Date Pro")** - Allows the customer to choose a delivery date on the checkout page. Black-out dates allow the site owner to decide which dates should be made not available for delivery.
 <ol>
 <li>Ability to select <strong>unlimited </strong> categories the plugin will be active</li>
@@ -38,7 +38,8 @@ Languages included:<ol>
 <li><strong>Select what weekdays delivery is not possible e.g.: Sunday</strong></li>
 </ol>
 
-**[View Demo](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
+<strong>Demo is available (frontend & Backend)
+**[View Demo](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo @ http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/")**
 
 This version is limited in features.
 For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
