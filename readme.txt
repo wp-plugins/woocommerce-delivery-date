@@ -22,9 +22,10 @@ You can select 2 categorie where the plugin will be active.
 
 This plugin allows you to improve your customer service by delivering the order on the customer's chosen date.
 
-Languages included:
-- English
-- Dutch
+Languages included:<ol>
+<li>- Dutch</li>
+<li>- English</li>
+<li>- German</li></ol>
 
 **Pro version (19,95):**
 
@@ -39,14 +40,17 @@ Languages included:
 <li><strong>Select what weekdays delivery is not possible e.g.: Sunday</strong></li>
 </ol>
 
-**[View Demo](http://demo.dreamfoxmedia.nl/wordpress/product/product-for-delivery-date-plugin-testing/ "View Demo")**
+**[View Demo](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
 
 This version is limited in features.
 For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
 
-<b>other WOOCOMMERCE plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Pro version</a><br>
--Payment per product:  <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/payment-gateway-per-product-woocommerce/" target="_blank">Pro version</a>
+<strong>other WooCommerce plugins from Dreamfox:</strong<br>
+<ol>
+<li>Shipping Gateway per Product: <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a></li>
+<li>Payment Gateway per Product: <a href="http://wordpress.org/plugins/woocommerce-paymentg-gateway-per-product/" target="_blank">Information</a></li>
+<li>WooCommerce Mailchimp Plugin: <a href="https//wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
+</ol>
 
 == Installation ==
 
