@@ -38,7 +38,7 @@ Languages included:<ol>
 <li><strong>Select what weekdays delivery is not possible e.g.: Sunday</strong></li>
 </ol>
 
-<strong>Demo is available (frontend & Backend)
+<strong>Demo is available (frontend & Backend)</strong>:
 **[View Demo @ http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
 
 This version is limited in features.
