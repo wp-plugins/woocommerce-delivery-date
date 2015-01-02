@@ -14,14 +14,12 @@ This plugin for woocommerce lets you select a number of days, and shopper can on
 
 This plugin will allow the customer to choose an order delivery date on the checkout page. The customer can choose any delivery date that is after the current date.
 
+5 STARS RATING FOR THIS PLUGIN! SEE: http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
 In woocommerce settings you can also set a number of days. If you set it to 10 days, then customers can only choose delivery dates 10 days after the current day. This is helpfull if you make handmade products that will take some days to make.
 
 The delivery date chosen by the customer will be visible to the site administrator while viewing the order under the "Custom Fields" section.
-
 You can select 2 categorie where the plugin will be active.
-
 This plugin allows you to improve your customer service by delivering the order on the customer's chosen date.
-
 Languages included:<ol>
 <li>- Dutch</li>
 <li>- English</li>
