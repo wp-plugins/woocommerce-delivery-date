@@ -47,9 +47,9 @@ For a small fee you can get the Pro version with no limitation at: <a href="http
 
 <strong>other WooCommerce plugins from Dreamfox:</strong<br>
 <ol>
-<li>Shipping Gateway per Product: <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a></li>
-<li>Payment Gateway per Product: <a href="http://wordpress.org/plugins/woocommerce-paymentg-gateway-per-product/" target="_blank">Information</a></li>
-<li>WooCommerce Mailchimp Plugin: <a href="https//wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
+<li>Shipping Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a></li>
+<li>Payment Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a></li>
+<li>WooCommerce Mailchimp Plugin: <a href="https://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
 </ol>
 
 == Installation ==
