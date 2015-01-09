@@ -53,8 +53,8 @@ For a small fee you can get the Pro version with no limitation at: <a href="http
 <li>WooCommerce Mailchimp Plugin: <a href="https://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
 </ol>
 
-Social media:<br>
-Twitter: <a href="https://twitter.com/dreamfoxmedia">https://twitter.com/dreamfoxmedia</a>
+<strong>Social media:</strong><br>
+Twitter: <a href="https://twitter.com/dreamfoxmedia">https://twitter.com/dreamfoxmedia</a><br>
 Facebook: <a href="https://www.facebook.com/dreamfoxmedia">https://www.facebook.com/dreamfoxmedia</a>
 
 == Installation ==
