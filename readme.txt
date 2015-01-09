@@ -94,8 +94,16 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+= 1.0.4 =
+* Option to default delivery date ( bank / default )
+* Option for required input field ( Yes/No ) + Error Message on checkout page
+* Category wise days ( default global days )
+* formatted scripts
+
 = 1.0.3 =
+* Change Scripting on checkout page
 * Update Language files for Dutch and German
+* add filter checkout_delivery_filed_setting to change fields setting and default values
 
 = 1.0.2 =
 * Fixes and made compatible with woocommerce 2.24
