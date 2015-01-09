@@ -14,7 +14,7 @@ This plugin for woocommerce lets you select a number of days, and shopper can on
 
 This plugin will allow the customer to choose an order delivery date on the checkout page. The customer can choose any delivery date that is after the current date.
 
-5 STARS RATING FOR THIS PLUGIN! SEE: 
+5 STARS RATING FOR THIS PLUGIN! SEE:<br> 
 http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
 
 In woocommerce settings you can also set a number of days. If you set it to 10 days, then customers can only choose delivery dates 10 days after the current day. This is helpfull if you make handmade products that will take some days to make.
@@ -30,16 +30,18 @@ Languages included:<ol>
 **[Woocommerce Delivery Date Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/ "Order Delivery Date Pro")** - Allows the customer to choose a delivery date on the checkout page. Black-out dates allow the site owner to decide which dates should be made not available for delivery.
 <ol>
 <li>Ability to select <strong>unlimited </strong> categories the plugin will be active</li>
-<li><strong>Workingdays</strong>option to count only workingdays (5 days a week)</li>
+<li><strong>Workingdays</strong> option to count only workingdays (5 days a week)</li>
 <li><strong>Add holiday or black-out dates</strong> to the calendar</li>
 <li><strong>Set more then one holidays</strong> to the calendar</li>
 <li><strong>show Delivery Date in Customer Notification Email</strong></li>
 <li>Show 2 months in calendar</li>
 <li><strong>Select what weekdays delivery is not possible e.g.: Sunday</strong></li>
+<li>Make the datefield required by checkout</li>
+<li>autofill in date or not</li>
 </ol>
 
-<strong>Demo is available (frontend & Backend)</strong>:
-**[View Demo @ http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
+<strong>Demo is available (frontend & Backend)</strong>:<br>
+**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
 
 This version is limited in features.
 For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
@@ -50,6 +52,10 @@ For a small fee you can get the Pro version with no limitation at: <a href="http
 <li>Payment Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a></li>
 <li>WooCommerce Mailchimp Plugin: <a href="https://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
 </ol>
+
+Social media:<br>
+Twitter: <a href="https://twitter.com/dreamfoxmedia">https://twitter.com/dreamfoxmedia</a>
+Facebook: <a href="https://www.facebook.com/dreamfoxmedia">https://www.facebook.com/dreamfoxmedia</a>
 
 == Installation ==
 
