@@ -41,21 +41,47 @@ Languages included:<ol>
 </ol>
 
 <strong>Demo is available (frontend & Backend)</strong>:<br>
-**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
+**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress-free/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress-free/available-demos/demo-delivery-date/ "View Demo")**
 
+#### Translation Support ####
+
+- i18n ready with included woocommerce-mailchimp-plugin.pot file
+- WPML support via wpml-config.xml
+
+**Included Translations:**
+
+- English (default)
+- No other translations yet.
+
+Thanks in advance for your help on any translation efforts!
+
+#### Multisite ####
+
+- All features should work for each blog in multisite installations.
+
+#### Full Version ####
 This version is limited in features.
-For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
+For just a small fee (19,95) you can get the Pro version with extra features and no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
 
-<strong>other WooCommerce plugins from Dreamfox:</strong<br>
-<ol>
-<li>Shipping Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a></li>
-<li>Payment Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a></li>
-<li>WooCommerce Mailchimp Plugin: <a href="https://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
-</ol>
+#### other WooCommerce plugins from Dreamfox Media: ####
+- WC Shipping Gateway per Product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-shipping-gateway-per-product-pro/" target="_blank">PRO Version</a><br>
+- WC Payment Gateway per product:  <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-product-payments/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/" target="_blank">PRO Version</a>
+- WooCommerce Delivery date: <a href="http://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-delivery-date" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/" target="_blank">PRO Version</a>
+- WooCommerce MailChimp Plugin: <a href="http://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-mailchimp-plugin" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-mailchimp-pro-plugin" target="_blank">PRO Version</a> 
 
-<strong>Social media:</strong><br>
-Twitter: <a href="https://twitter.com/dreamfoxmedia">https://twitter.com/dreamfoxmedia</a><br>
-Facebook: <a href="https://www.facebook.com/dreamfoxmedia">https://www.facebook.com/dreamfoxmedia</a>
+### Feedback ###
+
+Feedback is welcome!
+
+If you need help, have problems, want to leave feedback or want to provide constructive criticism, please use our contactform at [Dreamfox Media](http://www.dreamfoxmedia.nl).
+
+#### Twitter ####
+
+[Follow @dreamfoxmedia on Twitter](http://twitter.com/dreamfoxmedia) for updates on this and other plugins.
+
+#### Facebook ####
+
+[Follow Dreamfox Media on Facebook](https://www.facebook.com/dreamfoxmedia) for updates on this and other plugins.
 
 == Installation ==
 
@@ -91,7 +117,6 @@ Yes this is available in the Pro version
 = More Information =
 
 For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfoxmedia.nl" target="_blank">Dreamfox</a>.
-
 
 == Screenshots ==
 
