@@ -7,7 +7,7 @@
  * Author: Marco van Loghum Slaterus
  * Description: Extend Woocommerce plugin to add delivery date on checkout
  * Requires at least: 3.7
- * Tested up to: 4.1
+ * Tested up to: 4.2.3
  * License: GPLv3 or later
  * License URI: http://www.opensource.org/licenses/gpl-license.php
  * Text Domain: woocommerce-delivery-date
@@ -95,7 +95,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 							}
 							?>
 						</ul>
-						<small><?php echo __( 'You can only able select two category for this. You can purchase full version at www.dreamfox.nl!', 'softsdev' ); ?></small>
+						<small><?php echo __( 'You can only able select two category for this. You can purchase full version at www.dreamfoxmedia.nl!', 'softsdev' ); ?></small>
 						
 					</div>
 				</div>
